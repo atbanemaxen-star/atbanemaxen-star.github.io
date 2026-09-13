@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<meta name="description" content="Portfolio créatif de Maxen Atbane — montage vidéo, motion design, design graphique et développement web.">
+<title>MAXEN — Portfolio créatif</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="mono eyebrow">MAXEN ATBANE / 2026</div>
+      <div class="loader-name">CHARGEMENT<span>.</span></div>
+      <div class="loader-bar"><i id="loadBar"></i></div>
+      <div class="loader-meta"><span>PRÉPARATION DU MONTAGE</span><strong id="loadPct">000%</strong></div>
+    </div>
+  </div>
+
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="noise"></div><div class="scanlines"></div>
+  <div class="cursor" id="cursor"><span></span></div><div class="cursor-ring" id="cursorRing"></div>
+
+  <header class="hud">
+    <div class="hud-left">MAXEN ATBANE <b>/</b> PORTFOLIO CRÉATIF</div>
+    <div class="hud-right"><i></i> EN LIGNE / 2026</div>
+  </header>
+  <button class="sound-toggle" id="soundToggle" type="button" data-cursor="SON">SON <span>OFF</span></button>
+
+  <aside class="timeline" aria-label="Navigation du portfolio">
+    <div class="timeline-info"><span>TIMELINE</span><strong id="timecode">00:00:00</strong></div>
+    <div class="timeline-track">
+      <div class="timeline-progress" id="timelineProgress"></div>
+      <button class="tl-node active" data-target="intro"><b>01</b><span>INTRO</span></button>
+      <button class="tl-node" data-target="video"><b>02</b><span>VIDÉO</span></button>
+      <button class="tl-node" data-target="design"><b>03</b><span>DESIGN</span></button>
+      <button class="tl-node" data-target="web"><b>04</b><span>WEB</span></button>
+      <button class="tl-node" data-target="motion"><b>05</b><span>MOTION</span></button>
+      <button class="tl-node" data-target="showreel"><b>06</b><span>SHOWREEL</span></button>
+      <button class="tl-node" data-target="about"><b>07</b><span>À PROPOS</span></button>
+      <button class="tl-node" data-target="contact"><b>08</b><span>CONTACT</span></button>
+    </div>
+  </aside>
+
+  <main id="stage">
+    <section class="sequence seq-intro" id="intro">
+      <div class="corner corner-a"></div><div class="corner corner-b"></div>
+      <div class="tech tech-a">MAXEN ATBANE<br>PORTFOLIO CRÉATIF<br>VIDÉO / MOTION / DESIGN / WEB</div>
+      <div class="tech tech-b">SEQ_001<br>FORMAT_16:09<br>SCROLL → TIMELINE</div>
+      <div class="intro-grid"></div><div class="intro-cross"></div>
+      <div class="intro-center">
+        <div class="mono tiny">00:00:00 — DÉMARRAGE DE LA SÉQUENCE</div>
+        <h1 class="maxen-word" data-text="MAXEN">MAXEN</h1>
+        <a class="email-link interactive" data-cursor="ÉCRIRE" href="mailto:atbanemaxen@gmail.com">atbanemaxen@gmail.com <b>↗</b></a>
+        <p>JE MONTE. JE BOUGE. JE CONÇOIS.</p>
+        <div class="intro-meta"><span>01 / 08</span><span>SCROLLE POUR MONTER LE FILM</span></div>
+      </div>
+      <div class="scroll-cue"><i></i> SCROLL</div>
+    </section>
+
+    <section class="sequence seq-manifesto">
+      <div class="seq-label">SEQ 001 / GÉNÉRIQUE D'OUVERTURE</div>
+      <div class="manifesto-wrap">
+        <div class="manifesto-lead">JE CRÉE</div>
+        <div class="manifesto-stack"><span>VIDÉO</span><span>MOTION</span><span>DESIGN</span></div>
+      </div>
+      <div class="manifesto-foot">CHAQUE IMAGE EST UN CHOIX.</div>
+      <div class="marquee"><span>MONTER → DÉCOUPER → ANIMER → COMPOSER → CODER → MONTER → DÉCOUPER →</span></div>
+    </section>
+
+    <section class="sequence seq-video" id="video">
+      <div class="section-topline"><span>02 / MONTAGE VIDÉO</span><span>02 PROJETS / 2026</span></div>
+      <div class="video-layout">
+        <div class="video-copy">
+          <p class="kicker">SÉQUENCE 02</p>
+          <h2>JE MONTE<br><em>LE</em><br>MOMENT.</h2>
+          <p class="body-copy">Mes montages sont présentés comme des plans d'un même film. Le cadrage, l'échelle et le rythme évoluent avec le scroll.</p>
+          <div class="tool-tags"><span>PREMIERE PRO</span><span>AFTER EFFECTS</span></div>
+        </div>
+        <figure class="video-stage interactive" data-cursor="LECTURE">
+          <video class="project-video" muted playsinline loop preload="metadata"><source src="assets/video/proxy/91e44adaf685dbd2631afc562558b421_1.mp4" type="video/mp4"></video>
+          <figcaption><span>PROJET 01</span><span>MONTAGE / 2026</span></figcaption><b class="video-index">01</b>
+          <i class="frame tl"></i><i class="frame br"></i>
+        </figure>
+      </div>
+      <figure class="video-second interactive" data-cursor="VOIR">
+        <video class="project-video" muted playsinline loop preload="metadata"><source src="assets/video/proxy/d4b22e1a120d172b4a2616275a9e2f09_1.mp4" type="video/mp4"></video>
+        <figcaption><span>PROJET 02</span><span>MONTAGE / 2026</span></figcaption><b class="video-index">02</b>
+      </figure>
+      <div class="cut-marker">CUT / CUT / CUT / CUT</div>
+    </section>
+
+    <section class="sequence seq-design" id="design">
+      <div class="design-back">DESIGN</div>
+      <div class="section-topline dark"><span>03 / DESIGN GRAPHIQUE</span><span>TOUTES LES CRÉATIONS</span></div>
+      <div class="design-heading">
+        <div class="seq-label dark-text">SEQ 003 / GALERIE COMPLÈTE</div>
+        <h2>UNE IMAGE.<br><span>UNE ATMOSPHÈRE.</span></h2>
+        <p>J'ai regroupé ici l'intégralité des créations graphiques présentes dans ton dossier : Astroworld, affiches, textile, football, magazine, pantalon et recherches éditoriales.</p>
+      </div>
+
+      <div class="design-gallery" id="designGallery">
+        <figure class="design-card card-01 interactive" data-cursor="ZOOM" data-title="Mini-book Astroworld"><img src="assets/graphics/minibook.png" alt="Mini-book Astroworld"></figure>
+        <figure class="design-card card-02 interactive" data-cursor="ZOOM" data-title="Ouverture Astroworld"><img src="assets/graphics/Open_cover.png" alt="Ouverture Astroworld"></figure>
+        <figure class="design-card card-03 interactive" data-cursor="ZOOM" data-title="Devanture graphique"><img src="assets/graphics/devant.png" alt="Création graphique devanture"></figure>
+        <figure class="design-card card-04 interactive" data-cursor="ZOOM" data-title="T-shirt Barça"><img src="assets/graphics/ATBANE Maxen t shirt.png" alt="Création de t-shirt Barça"></figure>
+        <figure class="design-card card-05 interactive" data-cursor="ZOOM" data-title="Composition rétro"><img src="assets/graphics/Retro.png" alt="Composition rétro Astroworld"></figure>
+        <figure class="design-card card-06 interactive" data-cursor="ZOOM" data-title="Mini poster"><img src="assets/graphics/Mini_Poster.png" alt="Mini poster graphique"></figure>
+        <figure class="design-card card-07 interactive" data-cursor="ZOOM" data-title="Magazine — page 1"><img src="assets/print/magazine-1.png" alt="Magazine page 1"></figure>
+        <figure class="design-card card-08 interactive" data-cursor="ZOOM" data-title="Magazine — page 2"><img src="assets/print/magazine-2.png" alt="Magazine page 2"></figure>
+        <figure class="design-card card-09 interactive" data-cursor="ZOOM" data-title="Magazine — page 3"><img src="assets/print/magazine-3.png" alt="Magazine page 3"></figure>
+        <figure class="design-card card-10 interactive" data-cursor="ZOOM" data-title="Magazine — page 4"><img src="assets/print/magazine-4.png" alt="Magazine page 4"></figure>
+        <figure class="design-card card-11 interactive" data-cursor="ZOOM" data-title="Projet pantalon"><img src="assets/print/pantalon.png" alt="Projet pantalon"></figure>
+        <figure class="design-card card-12 interactive" data-cursor="ZOOM" data-title="Composition Lamine"><img src="assets/print/lamine-page.png" alt="Composition autour de Lamine Yamal"></figure>
+      </div>
+      <div class="design-ruler"><span>01</span><i></i><span>06</span><i></i><span>12</span></div>
+    </section>
+
+    <section class="sequence seq-web" id="web">
+      <div class="web-bg-word">CODE</div>
+      <div class="section-topline"><span>04 / DÉVELOPPEMENT WEB</span><span>VPTOURS / HTML + CSS</span></div>
+      <div class="web-intro">
+        <div><p class="kicker">SÉQUENCE 04</p><h2>JE CONÇOIS<br><span>DES EXPÉRIENCES.</span></h2></div>
+        <p class="body-copy">VPTOURS est un site vitrine touristique réalisé dans le cadre d'un projet web. J'y ai conçu plusieurs pages autour des États-Unis, de l'Espagne et du Japon.</p>
+      </div>
+      <div class="browser-shell">
+        <div class="browser-chrome"><div class="browser-dots"><i></i><i></i><i></i></div><span>vptours / accueil</span><span>HTML + CSS</span></div>
+        <div class="browser-screen"><iframe src="assets/legacy/index.html" title="Aperçu de VPTOURS"></iframe><div class="browser-overlay"><span>APERÇU DU PROJET</span><a href="assets/legacy/index.html" target="_blank">OUVRIR LE SITE ↗</a></div></div>
+      </div>
+      <div class="web-info-grid">
+        <div><span>PROJET</span><strong>VPTOURS</strong></div><div><span>TYPE</span><strong>SITE VITRINE</strong></div><div><span>PAGES</span><strong>ACCUEIL + DESTINATIONS</strong></div><div><span>TECHNOLOGIES</span><strong>HTML / CSS</strong></div>
+      </div>
+      <div class="web-pages">
+        <a href="assets/legacy/usa.html" target="_blank" class="web-page interactive" data-cursor="VOIR"><span>01</span><b>États-Unis</b><em>New York / Los Angeles / Las Vegas</em></a>
+        <a href="assets/legacy/espagne.html" target="_blank" class="web-page interactive" data-cursor="VOIR"><span>02</span><b>Espagne</b><em>Barcelone / Madrid / Séville</em></a>
+        <a href="assets/legacy/japon.html" target="_blank" class="web-page interactive" data-cursor="VOIR"><span>03</span><b>Japon</b><em>Tokyo / Kyoto / Osaka</em></a>
+        <a href="assets/legacy/avis.html" target="_blank" class="web-page interactive" data-cursor="VOIR"><span>04</span><b>Avis & contact</b><em>Retours / formulaire</em></a>
+      </div>
+    </section>
+
+    <section class="sequence seq-motion" id="motion">
+      <div class="motion-grid"></div>
+      <div class="section-topline"><span>05 / MOTION DESIGN</span><span>TYPE / FORME / RYTHME</span></div>
+      <div class="motion-copy"><div class="motion-count">05</div><h2>FAIRE<br><span>BOUGER</span><br>L'IMAGE.</h2><p>Typographie, lignes, échelle, profondeur et vitesse : le mouvement devient une matière graphique.</p></div>
+      <div class="motion-type motion-type-1">MOVE</div><div class="motion-type motion-type-2">FRAME</div><div class="motion-type motion-type-3">CUT</div>
+      <div class="motion-lines"></div><div class="motion-orbit"><span></span><span></span><span></span><span></span></div>
+      <div class="motion-caption">UNE IDÉE FIXE N'EST JAMAIS VRAIMENT FIXE.</div>
+    </section>
+
+    <section class="sequence seq-showreel" id="showreel">
+      <div class="reel-card">
+        <div class="section-topline"><span>06 / SHOWREEL</span><span>00:00 — 00:46</span></div>
+        <div class="reel-intro"><p>TOUT RÉUNIR.<br>EN UN SEUL MOUVEMENT.</p><button id="showreelPlay" class="reel-play interactive" data-cursor="LECTURE"><span>06</span>LANCER LE<br><em>SHOWREEL</em> <b>↗</b></button></div>
+        <div class="reel-preview" id="reelPreview"><video id="reelVideo" muted playsinline controls preload="metadata"><source src="assets/video/showreel.mp4" type="video/mp4"></video></div>
+        <div class="reel-scale"><span>00:00</span><i></i><span>00:15</span><i></i><span>00:30</span><i></i><span>00:46</span></div>
+      </div>
+    </section>
+
+    <section class="sequence seq-about" id="about">
+      <div class="section-topline dark"><span>07 / À PROPOS</span><span>NOTES DE CRÉATION</span></div>
+      <div class="about-wrap">
+        <div class="about-index">07</div>
+        <div class="about-title"><div class="eyebrow-dark">PORTRAIT / PARCOURS</div><h2>JE TRANSFORME<br>LES IDÉES EN<br><em>IMAGES.</em></h2></div>
+        <div class="about-copy">
+          <p><h1>Je suis Maxen, actuellement en <strong>deuxième année de BUT MMI</strong>. Je m'intéresse particulièrement au montage vidéo, au motion design, au graphisme et à la création numérique.</p>
+          <p>J'aime construire une identité visuelle, travailler le rythme d'une image et passer d'une idée à une réalisation concrète. Le web fait aussi partie de mon parcours : je peux concevoir une interface et la transformer en véritable expérience.</p>
+          <p>Ce portfolio reprend justement cette façon de travailler : chaque séquence est pensée comme un plan, chaque transition comme un cut, et le scroll comme une timeline.</h1></p>
+        </div>
+      </div>
+      <div class="skills-marquee"><span>MONTAGE VIDÉO</span><span>MOTION DESIGN</span><span>DESIGN GRAPHIQUE</span><span>DIRECTION ARTISTIQUE</span><span>DÉVELOPPEMENT WEB</span></div>
+      <div class="software-row"><span>PREMIERE PRO</span><span>AFTER EFFECTS</span><span>PHOTOSHOP</span><span>ILLUSTRATOR</span><span>FIGMA</span><span>HTML / CSS</span></div>
+    </section>
+
+    <section class="sequence seq-contact" id="contact">
+      <div class="contact-top"><span>08 / CONTACT</span><span>DERNIÈRE SÉQUENCE</span></div>
+      <div class="contact-main">
+        <div class="contact-small">UN SEUL POINT DE SORTIE.</div>
+        <h2>PARLONS<br><span>PROJET.</span></h2>
+        <a class="email-link interactive" data-cursor="ÉCRIRE" href="mailto:atbanemaxen@gmail.com">atbanemaxen@gmail.com <b>↗</b></a>
+      </div>
+      <div class="contact-footer"><span>MAXEN ATBANE / PORTFOLIO CRÉATIF / 2026</span><span>FIN DE LA SÉQUENCE</span></div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="lightboxClose" class="lightbox-close interactive" data-cursor="FERMER">FERMER ×</button><div class="lightbox-inner"><div class="lightbox-meta"><span id="lightboxTitle">PROJET</span><span>03 / DESIGN</span></div><img id="lightboxImage" src="" alt=""></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
